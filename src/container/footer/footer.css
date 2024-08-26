@@ -1,0 +1,233 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-self: center;
+    align-content: center;
+    margin: auto;
+    justify-content: center;
+    background: #031B34;
+
+}
+
+.footer__top {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+}
+
+.footer__top h2 {
+    font-size: 40pt;
+    font-weight: 1000;
+}
+
+.footer__top button {
+    justify-content: center;
+    border: 1px solid #fff;
+    margin: auto;
+    color: #fff;
+    background-color: transparent;
+    padding: 1rem;
+    width: 17rem;
+}
+
+.footer__middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    gap: 3rem;
+}
+
+.down__right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.down__left {
+    padding-right: 6rem;
+}
+
+.down__left p {
+    color: #fff;
+    font-size: smaller;
+    padding-top: 1rem;
+}
+
+.footer__links {
+    gap: 2rem;
+}
+
+.footer__links h6 {
+    color: #fff;
+    padding-bottom: 2rem;
+}
+
+.footer__links p {
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+.footer__down {
+    text-align: center;
+    font-size: 8pt;
+    color: #fff;
+    padding-top: 2rem;
+}
+
+@media screen and (max-width:600px) {
+    .footer {
+        padding: var(--pad-360);
+
+    }
+
+    .footer__top {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        padding-top: 5rem;
+        padding-bottom: 8rem;
+    }
+
+    .footer__top h2 {
+        font-size: 30pt;
+        font-weight: 1000;
+    }
+
+    .footer__top button {
+        justify-content: center;
+        border: 1px solid #fff;
+        margin: auto;
+        color: #fff;
+        background-color: transparent;
+        padding: 1rem;
+        width: 15rem;
+    }
+
+    .footer__middle {
+        gap: 1rem;
+    }
+
+    .down__right {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .down__left {
+        padding-right: 4rem;
+    }
+
+    .down__left p {
+        color: #fff;
+        font-size: smaller;
+        padding-top: 1rem;
+    }
+
+    .footer__links {
+        gap: 2rem;
+    }
+
+    .footer__links h6 {
+        color: #fff;
+        padding-bottom: 2rem;
+    }
+
+    .footer__links p {
+        color: #fff;
+        padding-bottom: 1rem;
+    }
+
+    .footer__down {
+        text-align: center;
+        font-size: 8pt;
+        color: #fff;
+        padding-top: 2rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .footer {
+        padding: var(--pad-360);
+
+    }
+
+    .footer__top {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        padding-top: 5rem;
+        padding-bottom: 8rem;
+    }
+
+    .footer__top h2 {
+        font-size: 30pt;
+        font-weight: 1000;
+    }
+
+    .footer__top button {
+        justify-content: center;
+        border: 1px solid #fff;
+        margin: auto;
+        color: #fff;
+        background-color: transparent;
+        padding: 1rem;
+        width: 15rem;
+    }
+
+    .footer__middle {
+        gap: 1rem;
+    }
+
+    .down__right {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .down__left {
+        padding-right: 4rem;
+    }
+
+    .down__left p {
+        color: #fff;
+        font-size: smaller;
+        padding-top: 1rem;
+    }
+
+    .footer__links {
+        gap: 2rem;
+    }
+
+    .footer__links h6 {
+        color: #fff;
+        padding-bottom: 2rem;
+    }
+
+    .footer__links p {
+        color: #fff;
+        padding-bottom: 1rem;
+    }
+
+    .footer__down {
+        text-align: center;
+        font-size: 8pt;
+        color: #fff;
+        padding-top: 2rem;
+    }
+}

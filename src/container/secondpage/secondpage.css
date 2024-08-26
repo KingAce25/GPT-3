@@ -1,0 +1,152 @@
+.second__page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}
+
+.second__left {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 2rem;
+}
+
+.chatbot {
+    display: flex;
+    flex-direction: row;
+}
+
+.second__right h2 {
+    font-weight: 1000;
+    font-size: 24pt;
+    padding-bottom: 1rem;
+}
+
+.second__right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/* .chatbot p
+{
+    color: var(--p-color);
+    padding-left: 3rem;
+} */
+
+.h {
+    display: flex;
+    width: 15rem;
+}
+
+.h h5 {
+    font-size: 15pt;
+}
+
+.p p {
+    color: var(--p-color);
+    display: flex;
+    padding-left: 3rem;
+}
+
+@media screen and (max-width:600px) {
+    .second__page {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 6rem;
+        padding: var(--pad-360);
+        padding-bottom: 4rem;
+    }
+
+    .chatbot {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .second__right h2 {
+        font-weight: 1000;
+        font-size: 20pt;
+        padding-bottom: 1rem;
+    }
+
+    .second__right {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    /* .chatbot p
+{
+    color: var(--p-color);
+    padding-left: 3rem;
+} */
+
+    .h {
+        display: flex;
+        width: 15rem;
+    }
+
+    .h h5 {
+        font-size: 12pt;
+    }
+
+    .p p {
+        color: var(--p-color);
+        display: flex;
+        padding-left: 3rem;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    .second__page {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 6rem;
+        padding: var(--pad-360);
+        padding-bottom: 4rem;
+    }
+
+    .chatbot {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .second__right h2 {
+        font-weight: 1000;
+        font-size: 20pt;
+        padding-bottom: 1rem;
+    }
+
+    .second__right {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    /* .chatbot p
+{
+    color: var(--p-color);
+    padding-left: 3rem;
+} */
+
+    .h {
+        display: flex;
+        width: 15rem;
+    }
+
+    .h h5 {
+        font-size: 12pt;
+    }
+
+    .p p {
+        color: var(--p-color);
+        display: flex;
+        padding-left: 3rem;
+    }
+
+}

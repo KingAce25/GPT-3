@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Header from "./container/header/Header.jsx";
+import Hero from "./container/hero/Hero.jsx";
+import Firstpage from "./container/firstpage/Firstpage";
+import Secondpage from "./container/secondpage/Secondpage";
+import Thirdpage from "./container/thirdpage/Thirdpage";
+import Fourthpage from "./container/fourthpage/Fourthpage";
+import Footer from "./container/footer/Footer";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Header />
+      <Hero />
+      <Firstpage />
+      <Secondpage />
+      <Thirdpage />
+      <Fourthpage />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
+ 

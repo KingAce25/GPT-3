@@ -1,0 +1,182 @@
+.third__page {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.third__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.third__left img {
+    height: auto;
+    width: 50rem;
+}
+
+#request {
+    color: var(--p-color);
+    padding-bottom: 2rem;
+}
+
+.third__right h3 {
+    font-weight: 1000;
+    font-size: 36pt;
+    padding-bottom: 1rem;
+}
+
+.third__down {
+    background: var(--linear-background);
+    border-radius: 15px;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#black {
+    color: #000;
+}
+
+.request {
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.request h5 {
+    color: #000;
+    font-weight: 1000;
+    font-size: 18pt;
+}
+
+.register button {
+    border-radius: 25px;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+}
+
+@media screen and (max-width:600px) {
+    .third__page {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        padding: var(--pad-360);
+    }
+
+    .third__top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-between; */
+        gap: 2rem;
+    }
+
+    .third__left img {
+        height: auto;
+        width: 30rem;
+    }
+
+    #request {
+        color: var(--p-color);
+        padding-bottom: 2rem;
+    }
+
+    .third__right h3 {
+        font-weight: 1000;
+        font-size: 30pt;
+        padding-bottom: 1rem;
+    }
+
+    .third__down {
+        background: var(--linear-background);
+        border-radius: 15px;
+        padding: 3rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #black {
+        color: #000;
+        font-size: 12pt;
+    }
+
+    .request {
+        gap: 1rem;
+        justify-content: space-between;
+    }
+
+    .request h5 {
+        color: #000;
+        font-weight: 1000;
+        font-size: 16pt;
+    }
+
+    .register button {
+        font-size: 9pt;
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .third__page {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        padding: var(--pad-360);
+    }
+
+    .third__top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-between; */
+        gap: 2rem;
+    }
+
+    .third__left img {
+        height: auto;
+        width: 30rem;
+    }
+
+    #request {
+        color: var(--p-color);
+        padding-bottom: 2rem;
+    }
+
+    .third__right h3 {
+        font-weight: 1000;
+        font-size: 30pt;
+        padding-bottom: 1rem;
+    }
+
+    .third__down {
+        background: var(--linear-background);
+        border-radius: 15px;
+        padding: 3rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #black {
+        color: #000;
+        font-size: 12pt;
+    }
+
+    .request {
+        gap: 1rem;
+        justify-content: space-between;
+    }
+
+    .request h5 {
+        color: #000;
+        font-weight: 1000;
+        font-size: 16pt;
+    }
+
+    .register button {
+        font-size: 9pt;
+        padding: 0.5rem 1rem;
+    }
+}
