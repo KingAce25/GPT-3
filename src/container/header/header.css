@@ -9,8 +9,9 @@
     align-items: center;
     align-content: center;
     justify-content: space-between;
-    position: fixed;
-    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    /* width: 100%; */
     background: linear-gradient(97deg, rgba(0, 40, 83, 1) 10%, rgba(4, 12, 24, 1) 80%);
 }
 

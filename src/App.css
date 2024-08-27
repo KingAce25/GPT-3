@@ -1,3 +1,8 @@
+*
+{
+    overflow-x: hidden;
+}
+
 :root
 {
     --button-color: #FF4820;
@@ -23,4 +28,9 @@
 .section__padding
 {
     padding: 2rem 8rem;
+}
+
+.body
+{
+    overflow-x: hidden;
 }
