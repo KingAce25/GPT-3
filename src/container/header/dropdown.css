@@ -1,15 +1,20 @@
 /* Basic styling for the body */
 body {
   font-family: 'Manrope', sans-serif;
+  z-index: 999;
 }
 
+#menu
+{
+  z-index: 999;
+}
 /* Styling the hamburger button */
 .menu-btn {
   position: relative;
   /* width: 30px;
   height:px; */
   cursor: pointer;
-  z-index: 2;
+  z-index: 999;
 }
 
 .menu-btn__burger {
@@ -35,7 +40,7 @@ body {
   position: fixed;
   background-color: hsla(178, 38%, 59%, 1);
   border-top: 1px solid #fff;
-  z-index: 1;
+  z-index: 999;
   /* transition: opacity 0.3s ease;
   opacity: 1; */
 }

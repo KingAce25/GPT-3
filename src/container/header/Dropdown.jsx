@@ -11,7 +11,7 @@ const Menu = () => {
     };
 
     return (
-        <div>
+        <div id='menu'>
             <div className={`menu-btn ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
 
                 <div className="menu-btn__burger">
@@ -29,10 +29,10 @@ const Menu = () => {
                     <div id="dropdown-menu">
                         <ul>
                             <li><a href="/">Home</a></li>
-                            <li><a href="#first__page">What is GPT-3?</a></li>
-                            <li><a href="#second__page">Open Ai</a></li>
-                            <li><a href="#third__page">Case Studies</a></li>
-                            <li><a href="#fourth__page">Library</a></li>
+                            <li><a href="#first__page" onClick={() => setMenuOpen(false)}>What is GPT-3?</a></li>
+                            <li><a href="#second__page" onClick={() => setMenuOpen(false)}>Open Ai</a></li>
+                            <li><a href="#third__page" onClick={() => setMenuOpen(false)}>Case Studies</a></li>
+                            <li><a href="#fourth__page" onClick={() => setMenuOpen(false)}>Library</a></li>
                             <li>
                                 <div id="drop">
                                     <button id='signin'>Sign in</button>
